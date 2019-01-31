@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NmDetails nmDetailId="100">
+    <buildingAccesRequest>Yes</buildingAccesRequest>
+    <drugTestException>Yes</drugTestException>
+    <mutualCodeOfConduct>Yes</mutualCodeOfConduct>
+    <ndaForm>No</ndaForm>
+    <newMachineRequest>Yes</newMachineRequest>
+    <nmDLUpdate>No</nmDLUpdate>
+    <nmDrugTest>No</nmDrugTest>
+    <nmDrugTestReRaised>No</nmDrugTestReRaised>
+    <nmIntroductionTraining>No</nmIntroductionTraining>
+    <ppmForm>No</ppmForm>
+    <privacyBasics>Yes</privacyBasics>
+    <prodTermId>No</prodTermId>
+    <signOnForm>No</signOnForm>
+</NmDetails>

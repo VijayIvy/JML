@@ -1,0 +1,97 @@
+Intially Got This Error:
+ERROR in node_modules/@angular/cdk/a11y/typings/focus-monitor/focus-monitor.d.ts
+(61,22): error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/a11y/typings/focus-monitor/focus-monitor.d.ts(71,29):
+error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/a11y/typings/focus-monitor/focus-monitor.d.ts(85,23):
+error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/a11y/typings/focus-monitor/focus-monitor.d.ts(138,30):
+ error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/a11y/typings/focus-trap/focus-trap.d.ts(131,30): error
+ TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/observers/typings/observe-content.d.ts(33,22): error T
+S2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/observers/typings/observe-content.d.ts(67,65): error T
+S2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/overlay/typings/position/connected-position-strategy.d
+.ts(40,106): error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/scrolling/typings/scrollable.d.ts(49,27): error TS2315
+: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/scrolling/typings/scrollable.d.ts(55,29): error TS2315
+: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/scrolling/typings/scrollable.d.ts(61,22): error TS2315
+: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/scrolling/typings/virtual-scroll-viewport.d.ts(18,17):
+ error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/scrolling/typings/virtual-scroll-viewport.d.ts(30,22):
+ error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/scrolling/typings/virtual-scroll-viewport.d.ts(66,29):
+ error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/stepper/typings/stepper.d.ts(135,92): error TS2315: Ty
+pe 'ElementRef' is not generic.
+node_modules/@angular/cdk/text-field/typings/autofill.d.ts(39,22): error TS2315:
+ Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/text-field/typings/autofill.d.ts(49,29): error TS2315:
+ Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/text-field/typings/autofill.d.ts(58,30): error TS2315:
+ Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/text-field/typings/autosize.d.ts(37,30): error TS2315:
+ Type 'ElementRef' is not generic.
+node_modules/@angular/cdk/tree/typings/nested-node.d.ts(33,28): error TS2315: Ty
+pe 'ElementRef' is not generic.
+node_modules/@angular/cdk/tree/typings/nested-node.d.ts(42,30): error TS2315: Ty
+pe 'ElementRef' is not generic.
+node_modules/@angular/cdk/tree/typings/padding.d.ts(34,95): error TS2315: Type '
+ElementRef' is not generic.
+node_modules/@angular/cdk/tree/typings/tree.d.ts(90,28): error TS2315: Type 'Ele
+mentRef' is not generic.
+node_modules/@angular/cdk/tree/typings/tree.d.ts(109,30): error TS2315: Type 'El
+ementRef' is not generic.
+node_modules/@angular/material/autocomplete/typings/autocomplete-origin.d.ts(15,
+17): error TS2315: Type 'ElementRef' is not generic.
+node_modules/@angular/material/autocomplete/typings/autocomplete-origin.d.ts(18,
+
+ERROR in node_modules/@angular/common/src/location/location.d.ts(8,10): error TS
+2305: Module '"D:/JML/JMLWEB/node_modules/rxjs/Rx"' has no exported member 'Subs
+criptionLike'.
+node_modules/@angular/flex-layout/core/typings/observable-media/observable-media
+.d.ts(1,22): error TS2305: Module '"D:/JML/JMLWEB/node_modules/rxjs/Rx"' has no
+exported member 'PartialObserver'.
+node_modules/@angular/flex-layout/core/typings/observable-media/observable-media
+.d.ts(1,39): error TS2724: Module '"D:/JML/JMLWEB/node_modules/rxjs/Rx"' has no
+exported member 'Subscribable'. Did you mean 'Subscriber'?
+
+
+ISSUE:
+	ERROR in node_modules/rxjs/Observable.d.ts(1,15): error TS2307: Cannot find modu
+	le 'rxjs-compat/Observable'.
+	src/app/can-activate-route.guard.ts(3,10): error TS2305: Module '"D:/JML/JMLWEB/
+	node_modules/rxjs/Observable"' has no exported member 'Observable'.
+	src/app/dashboard/dashboard.component.ts(13,10): error TS2305: Module '"D:/JML/J
+	MLWEB/node_modules/rxjs/Observable"' has no exported member 'Observable'.
+	src/app/services/authentication.service.ts(4,10): error TS2305: Module '"D:/JML/
+	JMLWEB/node_modules/rxjs/Observable"' has no exported member 'Observable'.
+	src/app/services/authentication.service.ts(47,8): error TS2339: Property 'map' d
+	oes not exist on type 'Observable<Object>'.
+	src/app/services/workflow-service.service.ts(4,10): error TS2305: Module '"D:/JM
+	L/JMLWEB/node_modules/rxjs/Observable"' has no exported member 'Observable'.
+	
+Solution:
+	npm install rxjs@6 rxjs-compat@6 --save	
+	
+Issue:
+	Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:4200' is therefore not allowed access.
+Solution: Browser settings. As per google
+	
+	
+Issue:	
+	Uncaught Error: Template parse errors:
+Can't bind to 'ngModel' since it isn't a known property of 'select'. ("
+  </select>-->
+
+  <select [ERROR ->][(ngModel)]="username" (change)="getUser($event)">
+      <option *ngFor="let ref of emp" value={{ref."): ng:///AppModule/AppComponent.html@19:10
+    at syntaxError (compiler.js:2547)
+    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse (compiler.js:19495)
+	
+Solution:

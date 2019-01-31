@@ -1,0 +1,176 @@
+D:\JML\angular-multi-layout-example>ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 7.0.7
+Node: 9.7.1
+OS: win32 x64
+Angular: 4.3.6
+... common, compiler, core, forms, http, platform-browser
+... platform-browser-dynamic, router
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.10.7
+@angular-devkit/build-angular     0.10.7
+@angular-devkit/build-optimizer   0.10.7
+@angular-devkit/build-webpack     0.10.7
+@angular-devkit/core              7.0.7
+@angular-devkit/schematics        7.0.7
+@angular/cli                      7.0.7
+@angular/compiler-cli             7.0.4
+@angular/language-service         7.0.4
+@ngtools/webpack                  7.0.7
+@schematics/angular               7.0.7
+@schematics/update                0.10.7
+rxjs                              5.4.2
+typescript                        3.1.6
+webpack                           4.19.1
+
+
+
+D:\JML\angular-multi-layout-example>npx ng version
+npx: installed 1 in 3.161s
+The "path" argument must be of type string
+D:\JML\angular-multi-layout-example\node_modules\@angular\cli\bin\ng
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 7.0.7
+Node: 9.7.1
+OS: win32 x64
+Angular: 4.3.6
+... common, compiler, core, forms, http, platform-browser
+... platform-browser-dynamic, router
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.10.7
+@angular-devkit/build-angular     0.10.7
+@angular-devkit/build-optimizer   0.10.7
+@angular-devkit/build-webpack     0.10.7
+@angular-devkit/core              7.0.7
+@angular-devkit/schematics        7.0.7
+@angular/cli                      7.0.7
+@angular/compiler-cli             7.0.4
+@angular/language-service         7.0.4
+@ngtools/webpack                  7.0.7
+@schematics/angular               7.0.7
+@schematics/update                0.10.7
+rxjs                              5.4.2
+typescript                        3.1.6
+webpack                           4.19.1
+
+
+D:\JML\angular-multi-layout-example>npx ng serve
+
+
+
+--Old--
+D:\JML\JMLWEB>npx ng -v
+npx: installed 1 in 3.141s
+The "path" argument must be of type string
+D:\JML\JMLWEB\node_modules\@angular\cli\bin\ng
+
+    _                      _                 ____ _     ___
+   / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+  / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+ / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+/_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+               |___/
+
+Angular CLI: 1.6.0
+Node: 9.7.1
+OS: win32 x64
+Angular: 5.2.11
+... animations, common, compiler, compiler-cli, core, forms
+... http, language-service, platform-browser
+... platform-browser-dynamic, router
+
+@angular/cdk: 7.0.4
+@angular/cli: 1.6.0
+@angular/material-moment-adapter: 6.0.1
+@angular/material: 7.0.4
+@angular-devkit/build-optimizer: 0.0.42
+@angular-devkit/core: 7.0.5
+@angular-devkit/schematics: 0.0.52
+@ngtools/json-schema: 1.1.0
+@ngtools/webpack: 1.9.0
+@schematics/angular: 0.1.17
+typescript: 2.4.2
+webpack: 3.10.0
+
+
+
+
+@angular/cdk: 5.2.5
+@angular/cli: 1.6.0
+@angular/material-moment-adapter: 6.0.1
+@angular/material: 7.0.4
+@angular-devkit/build-optimizer: 0.0.42
+@angular-devkit/core: 7.0.5
+@angular-devkit/schematics: 0.0.52
+@ngtools/json-schema: 1.1.0
+@ngtools/webpack: 1.9.0
+@schematics/angular: 0.1.17
+typescript: 2.4.2
+webpack: 3.10.0
+
+npm uninstall -g @angular/cli
+npm uninstall @angular/material  --save
+npm install @angular/material@5.2.4 --save
+
+npm uninstall @angular/cdk  --save
+npm install @angular/cdk@5.2.4 --save
+
+npm install @angular/cli@7.0.7 --save
+
+npm install @angular/flex-layout --save
+
+npm install rxjs@6 rxjs-compat@6 --save
+
+npm view karma version
+npm view jasmine version
+
+ rm -rf node_modules
+npm cache clean
+npm i
+
+npm update --save
+
+ng generate service serive-name
+
+npm install karma-jasmine karma-chrome-launcher jasmine-core --save-dev
+
+npm install karma karma-chrome-launcher karma-jasmine jasmine-core --save-dev
+npm install karma-cli
+npm install -g karma-cli
+
+
+emailID.invalid || employeeId.invalid || ctsJoinDate.invalid || nmJoinDate.invalid || nmEndDate.invalid
+
+ [disabled]='employeeFirstName.invalid || employeeLastName.invalid ||                 
+                experience.invalid ||onBoardStatus.invalid'
+				
+this.employeeFirstName != null && this.employeeLastName != null &&
+            this.emailID != null && this.employeeId != null
+			
+	//   headers.set('Content-Type', 'application/json; charset=utf-8');
+    //   headers.set('Access-Control-Allow-Origin', '*');
+    //   headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, OPTIONS, DELETE");
+    //   headers.set('Authorization',  localStorage.getItem('vToken'));
+    //   headers.set("Access-Control-Allow-Headers", "Access-Control-Allow-Origin, Access-Control-Allow-Methods, X-Requested-With, Content-Type, Accept, 'Authorization'");
+	
+	
