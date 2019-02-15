@@ -158,19 +158,4 @@ npm install karma karma-chrome-launcher karma-jasmine jasmine-core --save-dev
 npm install karma-cli
 npm install -g karma-cli
 
-
-emailID.invalid || employeeId.invalid || ctsJoinDate.invalid || nmJoinDate.invalid || nmEndDate.invalid
-
- [disabled]='employeeFirstName.invalid || employeeLastName.invalid ||                 
-                experience.invalid ||onBoardStatus.invalid'
-				
-this.employeeFirstName != null && this.employeeLastName != null &&
-            this.emailID != null && this.employeeId != null
-			
-	//   headers.set('Content-Type', 'application/json; charset=utf-8');
-    //   headers.set('Access-Control-Allow-Origin', '*');
-    //   headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, OPTIONS, DELETE");
-    //   headers.set('Authorization',  localStorage.getItem('vToken'));
-    //   headers.set("Access-Control-Allow-Headers", "Access-Control-Allow-Origin, Access-Control-Allow-Methods, X-Requested-With, Content-Type, Accept, 'Authorization'");
-	
 	
